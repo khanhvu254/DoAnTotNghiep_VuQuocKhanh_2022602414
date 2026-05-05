@@ -105,7 +105,7 @@ const ClientLayout = () => {
                 
                 <div className="logo" style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => navigate('/')}>
                     <LaptopOutlined style={{ fontSize: '32px', color: '#1890ff', marginRight: 10 }} />
-                    <span style={{ fontSize: '24px', fontWeight: 'bold', color: '#1890ff', letterSpacing: '1px' }}>MyLap</span>
+                    <span style={{ fontSize: '24px', fontWeight: 'bold', color: '#1890ff', letterSpacing: '1px' }}>VeloTech</span>
                 </div>
 
                 <div style={{ width: '40%', maxWidth: '600px' }}>
@@ -163,9 +163,9 @@ const ClientLayout = () => {
             <Footer style={{ textAlign: 'center', background: '#001529', color: 'rgba(255, 255, 255, 0.65)', padding: '30px 50px' }}>
                 <div style={{ marginBottom: 10 }}>
                     <LaptopOutlined style={{ fontSize: '24px', color: '#1890ff', marginRight: 10 }} />
-                    <span style={{ fontSize: '20px', fontWeight: 'bold', color: 'white' }}>MyLap Store</span>
+                    <span style={{ fontSize: '20px', fontWeight: 'bold', color: 'white' }}>VeloTech Store</span>
                 </div>
-                MyLap ©2025 Created by Le Minh Quang - Đồ án tốt nghiệp Công nghệ thông tin
+                VeloTech ©2026 Created by Vu Quoc Khanh - Đồ án tốt nghiệp Công nghệ thông tin
             </Footer>
 
             <CompareModal />
@@ -180,18 +180,18 @@ const ClientLayout = () => {
             >
                 <FloatButton 
                     icon={<PhoneOutlined />} 
-                    tooltip={<div>Hotline: 0348.773.921</div>}
-                    onClick={() => window.open('tel:0348773921')} 
+                    tooltip={<div>Hotline: 0968.332.804</div>}
+                    onClick={() => window.open('tel:0968332804')} 
                 />
                 <FloatButton 
                     icon={<MessageOutlined />} 
                     tooltip={<div>Chat Zalo</div>}
-                    onClick={() => window.open('https://zalo.me/0348773921', '_blank')} 
+                    onClick={() => window.open('https://zalo.me/0968332804', '_blank')} 
                 />
                 <FloatButton 
                     icon={<FacebookOutlined />} 
                     tooltip={<div>Fanpage Facebook</div>}
-                    onClick={() => window.open('https://www.facebook.com/lomo.quang.9/', '_blank')} 
+                    onClick={() => window.open('https://www.facebook.com/khanh.vu.204256/', '_blank')} 
                 />
                 <FloatButton 
                     icon={<DiffOutlined />} 

@@ -96,7 +96,7 @@ const Home = () => {
     // Banner data (Giữ nguyên)
     const banners = [
         { id: 1, title: "SIÊU SALE MÙA TỰU TRƯỜNG", desc: "Giảm giá 30% - Tặng Balo & Chuột", color: 'linear-gradient(90deg, #1890ff 0%, #0050b3 100%)' },
-        { id: 2, title: "MACBOOK AIR M2 - ĐỈNH CAO", desc: "Sở hữu siêu phẩm Apple chỉ từ 26 triệu", color: 'linear-gradient(90deg, #ff4d4f 0%, #cf1322 100%)' },
+        { id: 2, title: "MACBOOK AIR M2 - ĐỈNH CAO", desc: "Sở hữu siêu phẩm Apple chỉ từ 29 triệu", color: 'linear-gradient(90deg, #ff4d4f 0%, #cf1322 100%)' },
         { id: 3, title: "GAMING LAPTOP - CHIẾN GAME", desc: "Cấu hình khủng - Màn hình 144Hz", color: 'linear-gradient(90deg, #52c41a 0%, #237804 100%)' }
     ];
     

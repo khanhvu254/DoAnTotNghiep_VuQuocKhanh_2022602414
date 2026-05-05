@@ -60,7 +60,7 @@ const Login = () => {
     }}>
       <Card style={{ width: 400, boxShadow: "0 4px 12px rgba(0,0,0,0.1)" }}>
         <div style={{ textAlign: "center", marginBottom: 24 }}>
-          <Title level={2} style={{ color: "#1890ff" }}>MyLap</Title>
+          <Title level={2} style={{ color: "#1890ff" }}>VeloTech</Title>
           <Text type="secondary">Đăng nhập để tiếp tục mua sắm</Text>
         </div>
 

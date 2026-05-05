@@ -14,7 +14,7 @@ import java.util.stream.Collectors;
 @Component
 public class JwtUtils {
     // Secret Key (Nên để trong application.properties, nhưng demo để đây cũng được)
-    private static final String SECRET_KEY = "DoAnTotNghiep_LeMinhQuang_BiMatKhongDuocTietLo_PhaiDu32KyTu";
+    private static final String SECRET_KEY = "DoAnTotNghiep_VuQuocKhanh_BiMatKhongDuocTietLo_PhaiDu32KyTu";
     private static final long EXPIRATION_TIME = 86400000L; // 1 ngày
 
     private Key getSigningKey() {

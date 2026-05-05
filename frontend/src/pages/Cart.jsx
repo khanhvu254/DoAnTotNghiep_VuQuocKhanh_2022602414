@@ -166,22 +166,22 @@ const Cart = () => {
                 {/* 1. Nút gọi điện */}
                 <FloatButton 
                     icon={<PhoneOutlined />} 
-                    tooltip={<div>Hotline: 0348.773.921</div>}
-                    onClick={() => window.open('tel:0348773921')} // Gọi điện ngay
+                    tooltip={<div>Hotline: 0968.332.804</div>}
+                    onClick={() => window.open('tel:0968332804')} // Gọi điện ngay
                 />
 
                 {/* 2. Nút Zalo (Dùng tạm icon Message vì AntD ko có icon Zalo) */}
                 <FloatButton 
                     icon={<MessageOutlined />} 
                     tooltip={<div>Chat Zalo</div>}
-                    onClick={() => window.open('https://zalo.me/0348773921', '_blank')} 
+                    onClick={() => window.open('https://zalo.me/0968332804', '_blank')} 
                 />
 
                 {/* 3. Nút Facebook */}
                 <FloatButton 
                     icon={<FacebookOutlined />} 
                     tooltip={<div>Fanpage Facebook</div>}
-                    onClick={() => window.open('https://www.facebook.com/lomo.quang.9/', '_blank')} 
+                    onClick={() => window.open('https://www.facebook.com/khanh.vu.204256/', '_blank')} 
                 />
                 
                 {/* 4. Nút cuộn lên đầu trang (Tiện ích thêm) */}

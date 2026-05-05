@@ -6,7 +6,7 @@ import api from '../services/api';
 const ChatWidget = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [messages, setMessages] = useState([
-        { sender: 'bot', text: 'Xin chào! Tôi là trợ lý ảo MyLap. Bạn cần tìm laptop loại nào?' }
+        { sender: 'bot', text: 'Xin chào! Tôi là trợ lý ảo VeloTech. Bạn cần tìm laptop loại nào?' }
     ]);
     const [inputValue, setInputValue] = useState('');
     const [loading, setLoading] = useState(false);
@@ -56,7 +56,7 @@ const ChatWidget = () => {
                     title={
                         <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
                             <RobotOutlined style={{ fontSize: 20, color: '#1890ff' }} />
-                            <span>Trợ lý ảo MyLap</span>
+                            <span>Trợ lý ảo VeloTech</span>
                         </div>
                     }
                     extra={<Button type="text" icon={<CloseOutlined />} onClick={() => setIsOpen(false)} />}

@@ -51,7 +51,7 @@ const Register = () => {
       <Card style={{ width: 450, boxShadow: "0 4px 12px rgba(0,0,0,0.1)" }}>
         <div style={{ textAlign: "center", marginBottom: 24 }}>
           <Title level={2} style={{ color: "#1890ff" }}>Đăng Ký</Title>
-          <Text type="secondary">Tạo tài khoản thành viên MyLap</Text>
+          <Text type="secondary">Tạo tài khoản thành viên VeloTech</Text>
         </div>
 
         <Form

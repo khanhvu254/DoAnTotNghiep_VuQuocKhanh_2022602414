@@ -1,11 +1,12 @@
 -- {
--- --     "username": "admin_vip",
--- --     "password": "password123"
--- -- }
+--     "username": "admin_vip",
+--     "password": "password123"
+-- }
+
 
 -- {
---     "username": "userquang123",
---     "password": "Quang2004@"
+--     "username": "userkhanh25",
+--     "password": "123456"
 -- }
 
 

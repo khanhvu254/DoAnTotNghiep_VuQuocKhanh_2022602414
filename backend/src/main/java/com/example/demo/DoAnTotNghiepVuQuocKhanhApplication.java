@@ -5,14 +5,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 @SpringBootApplication
-public class DoAnTotNghiepLeMinhQuangApplication {
+public class DoAnTotNghiepVuQuocKhanhApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DoAnTotNghiepLeMinhQuangApplication.class, args);
+		SpringApplication.run(DoAnTotNghiepVuQuocKhanhApplication.class, args);
 		BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
-
-        System.out.println(encoder.encode("password123"));
-        System.out.println(encoder.encode("Quang2004@"));
 	}
 
 }
