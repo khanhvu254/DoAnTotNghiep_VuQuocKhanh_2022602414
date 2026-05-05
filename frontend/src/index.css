@@ -1,0 +1,23 @@
+/* File: src/index.css */
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #f0f2f5; /* Màu nền xám nhẹ cho toàn web */
+}
+
+/* Quan trọng: Đảm bảo thẻ root của React chiếm hết màn hình */
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: block; /* Ghi đè cái display: grid/flex mặc định của Vite nếu có */
+}
